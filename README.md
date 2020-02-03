@@ -3,7 +3,7 @@ Model of Jaime rigged with the default Blender's armature.
 
 ### Screenshots
 
-![BetterToneMapFilter](../master/img/BetterToneMapFilter.jpg)
+![JaimeRigged1](../master/img/JaimeRigged1.jpg)
 
 #### Credits
 
