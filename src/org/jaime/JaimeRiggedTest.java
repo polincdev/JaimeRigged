@@ -107,10 +107,7 @@ public class JaimeRiggedTest extends SimpleApplication  implements AnimEventList
 
   /** Custom Keybinding: Map named actions to inputs. */
   private void initKeys() {
-    inputManager.addMapping("Walk", new KeyTrigger(KeyInput.KEY_SPACE));
-    inputManager.addListener(actionListener, "Walk");
-    
-    
+     
       //Keys
         inputManager.addMapping("StrDec", new KeyTrigger(KeyInput.KEY_1));
         inputManager.addMapping("StrInc", new KeyTrigger(KeyInput.KEY_2));
@@ -125,12 +122,7 @@ public class JaimeRiggedTest extends SimpleApplication  implements AnimEventList
   }
   private ActionListener actionListener = new ActionListener() {
     public void onAction(String name, boolean keyPressed, float tpf) {
-      if (name.equals("Walk") && !keyPressed) {
-        if (!channel.getAnimationName().equals("Walk")) {
-          channel.setAnim("walking", 0.50f);
-          channel.setLoopMode(LoopMode.Loop);
-        }
-      }
+    
       
         if(!keyPressed)
             return;
