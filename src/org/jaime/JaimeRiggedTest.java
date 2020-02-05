@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ 
 package org.jaime;
 
 import com.jme3.animation.AnimChannel;
@@ -31,8 +27,7 @@ import com.jme3.scene.Spatial;
 import com.jme3.scene.shape.Box;
  
 
-/** Sample 8 - how to let the user pick (select) objects in the scene
- * using the mouse or key presses. Can be used for shooting, opening doors, etc. */
+/** Show Jaime model animations */
 public class JaimeRiggedTest extends SimpleApplication  implements AnimEventListener {
 
   public static void main(String[] args) {
